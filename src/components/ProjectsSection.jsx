@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "AI Fitness Trainer",
+    description: "AI-powered app with chat-based fitness guidance, custom workouts, meal plans, and responsive multi-program support.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Next.js", "TailwindCSS", "Gemini AI", "Voice AI"],
+    demoUrl: "https://matrix-ai-project.vercel.app/",
+    githubUrl: "https://github.com/chinmaygupta0/Matrix-ai-project",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Real Time Chat App",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["MERN", "Socket.io", "TailwindCSS", "JWT Auth"],
+    demoUrl: "https://chat-app-iuv9.onrender.com",
+    githubUrl: "https://github.com/chinmaygupta0/Chat-App",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Gym Workout Buddy",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured gym workout buddy with personalized exercise planning and progress tracking.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/chinmaygupta0/project",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/chinmaygupta0"
           >
             Check My Github <ArrowRight size={16} />
           </a>
